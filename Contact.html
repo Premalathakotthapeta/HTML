@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="08626B">
+    <a href="Home.html">HOME</a>
+<a href="About.html">AboutUs</a>
+<a href="Gallery.html">Gallery</a>
+<a href="Contact.html">ContactUs</a>  
+    <h3>ContactUs Page</h3>
+    <fieldset>
+        <legend align="right">REGISTRATION FORM</legend>
+    <form align="center" >
+        <div>
+     <label for="a">Username</label></div>
+        <input type="text" name="user" id="a"placeholder="Enter username" required>
+    <div>
+    <label for="b">Password</label></div>
+        <input type="password"name="pwd" id="b"placeholder="Enter password" required>
+       <div> <label for="c">DOB</label></div>
+        <input type="DATE" name="dob" id="c" required>
+        <div><label for="d">Email</label></div>
+        <input type="email" name="email" id="d" placeholder="Enter Email Id"required>
+        <div><label for="e">Mobile Number</label></div>
+        <input type="text" name="MOB" id="e" pattern="[0-9]{10}" required oncustomvalidity="Enter Mobile Number">
+     <div><label for="">Upload the below files</label></div>
+       <input type="file" name="File" id="" accept="pdf" required>
+       <div> <label for="e">Gender</label></div>
+        <input type="radio" name="p" id="e">Female
+        <input type="radio" name="p" id="e" checked>Male<br>
+        <input type="checkbox" name="" id=""checked>Remember me<br>
+        <input type="submit"value="LOGIN" required><br><br>
+    </form>
+</body>
+</html>
